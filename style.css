@@ -1,0 +1,88 @@
+body {
+    background: #111;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 650px;
+    background: rgba(255,255,255,0.07);
+    padding: 30px;
+    border-radius: 18px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+/* Medium Poster */
+.cat-img img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 14px;
+    display: block;
+    margin: 12px auto 20px;
+}
+
+/* Inputs */
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+input {
+    flex: 1;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background: #222;
+    color: #fff;
+}
+
+/* Buttons */
+button {
+    padding: 12px 18px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#saveBtn { background: #0099ff; }
+#randomBtn { background: #00c853; }
+#clearAllBtn { background: #ff3b3b; }
+button:hover { opacity: 0.85; }
+
+/* Quote List */
+ul {
+    list-style: none;
+    padding: 0;
+    width: 95%;
+    margin: auto;
+}
+
+/* Compact Quote Box */
+li {
+    background: rgba(255,255,255,0.12);
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+/* Icons */
+.icon-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+}
